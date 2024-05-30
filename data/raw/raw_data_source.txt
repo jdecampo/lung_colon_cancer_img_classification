@@ -1,0 +1,8 @@
+Raw dataset can be download from the following link as .zip file:
+
+https://academictorrents.com/details/7a638ed187a6180fd6e464b3666a6ea0499af4af
+
+Then, extract the zip file into a folder. You can then upload this dataset to your google drive folder or use it on any platform you want.
+
+For more information about dataset, you can see this article:
+The Article: https://arxiv.org/abs/1912.12142
