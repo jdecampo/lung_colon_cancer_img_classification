@@ -15,4 +15,4 @@ Project Organization
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │   └── model_trained  <- Trained models.   
     │
-    └── report            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    └── report            <- Generated analysis as PDF, PNG.
