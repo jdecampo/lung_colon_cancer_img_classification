@@ -45,6 +45,6 @@ Project Organization
 
 ## EDA
 
-Plot the distribution for each category present in the dataset: ![image](https://github.com/jdecampo/lung_colon_cancer_img_classification/blob/main/report/eda_class_distribution.pdf)
+Plot the distribution for each category present in the dataset: ![image](https://github.com/jdecampo/lung_colon_cancer_img_classification/blob/main/report/eda_class_distribution.png)
 
     
