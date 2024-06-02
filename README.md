@@ -41,3 +41,10 @@ Project Organization
     │   └── model_trained  <- Trained models.   
     │
     └── report            <- Generated analysis as PDF, PNG.
+
+
+## EDA
+
+Plot the distribution for each category present in the dataset: ![image](https://github.com/jdecampo/lung_colon_cancer_img_classification/blob/main/report/eda_class_distribution.pdf)
+
+    
