@@ -57,7 +57,7 @@ Plot the distribution for each category present in the dataset: ![image](https:/
 
 - The best model has been selected based on test **Accuracy** score (TP+TN / TP+TN+FP+FN). 
 - Model performance per histological categories are assessed based on **Precision** (TP/TP+FP) for categories **(0)**, **(2)** as we want to mitigate the impact of wrongly diagnosing patients with cancer as healthy.
- Whereas **Recall** score (TP/TP+FN) is used for **(1)**, **(3)**, **(4)**, to prevent the risk of falsely diagnosing a patient to be healthy while having cancer. Additionally, the **ROC-AUC** score was utilized to monitor the model's performance per category, ensuring effectiveness beyond chance.
+- Whereas **Recall** score (TP/TP+FN) is used for **(1)**, **(3)**, **(4)**, to prevent the risk of falsely diagnosing a patient to be healthy while having cancer. Additionally, the **ROC-AUC** score was utilized to monitor the model's performance per category, ensuring effectiveness beyond chance.
 - Given the sensitive nature of the use case, it is highly recommended that healthcare specialists personally review all patient results. The outcomes derived from the support solution should be evaluated in mainly ~40% of the cases to ensure thorough oversight and accuracy. The current model is designed to streamline the process for the remaining 60% of cases, allowing healthcare professionals to concentrate their efforts on more complex scenarios. This approach ensures that resources are optimally allocated, enhancing overall efficiency and effectiveness in patient care.
 
 **Base CNN model:** Accuracy: 74%
