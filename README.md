@@ -61,7 +61,9 @@ Plot the distribution for each category present in the dataset: ![image](https:/
 - Given the sensitive nature of the use case, it is highly recommended that healthcare specialists personally review all patient results. The outcomes derived from the support solution should be evaluated in mainly ~40% of the cases to ensure thorough oversight and accuracy. The current model is designed to streamline the process for the remaining 60% of cases, allowing healthcare professionals to concentrate their efforts on more complex scenarios. This approach ensures that resources are optimally allocated, enhancing overall efficiency and effectiveness in patient care.
 
 **Base CNN model:** Accuracy: 74%
+
 **Enhanced CNN model:** Accuracy: 97%
+
 **Transfer Learning (VGG16) model:** Accuracy: 97%. ROC-AUC 1 for each category.
 Selected best model since it matches the performance of the Enhanced model while utilizing a less resource-intensive network. This efficiency showcases the benefits of transfer learning, highlighting its ability to maintain high accuracy without the need for extensive computational resources.
 
