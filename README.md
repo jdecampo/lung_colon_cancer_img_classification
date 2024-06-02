@@ -5,6 +5,7 @@ Lung and Colon cancer histopathological image classification utilizing DeepL (CN
 
 ## Dataset Description
 The dataset comprises 25,000 colour images, evenly distributed across five distinct histological categories:
+
 0. Colon Benign Tissue: non-cancerous cells and structures within the colon.
 1. Colon Adenocarcinoma: is the most common type of colon cancer, it originates from the glandular cells of the colon, which are responsible for producing mucus and other fluids.
 2. Lung Benign Tissue: includes the normal structures of the lungs that are involved in breathing but are not affected by cancerous changes.
