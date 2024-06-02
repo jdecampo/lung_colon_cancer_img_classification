@@ -65,6 +65,7 @@ Plot the distribution for each category present in the dataset: ![image](https:/
 **Enhanced CNN model:** Accuracy: 97%
 
 **Transfer Learning (VGG16) model:** Accuracy: 97%. ROC-AUC 1 for each category.
+
 Selected best model since it matches the performance of the Enhanced model while utilizing a less resource-intensive network. This efficiency showcases the benefits of transfer learning, highlighting its ability to maintain high accuracy without the need for extensive computational resources.
 
 
