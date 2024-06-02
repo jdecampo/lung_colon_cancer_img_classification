@@ -15,7 +15,7 @@ The dataset comprises 25,000 colour images, evenly distributed across 5 distinct
 ## Main Project Reference:
 
 - **Dataset original Article:** Borkowski AA, Bui MM, Thomas LB, Wilson CP, DeLand LA, Mastorides SM. Lung and Colon Cancer Histopathological Image Dataset (LC25000). arXiv:1912.12142v1 [eess.IV], 2019 [arXiv:1912.12142v1](https://arxiv.org/abs/1912.12142v1)
-- [Histological category descriptions] (https://www.ncbi.nlm.nih.gov/)
+- [Histological category descriptions](https://www.ncbi.nlm.nih.gov/)
 
 
 
