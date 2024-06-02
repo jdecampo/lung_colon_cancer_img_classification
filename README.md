@@ -49,9 +49,26 @@ To gain a better understanding of the problem, display a subset of the histopath
 
 Plot the distribution for each category present in the dataset: ![image](https://github.com/jdecampo/lung_colon_cancer_img_classification/blob/main/report/eda_class_distribution.png)
 
-## Models:
+## Methodology Pipeline:
+
+![image](https://github.com/jdecampo/lung_colon_cancer_img_classification/blob/main/report/lung_colon_methodology_pipeline.png)
+
+## Model Performance: 
+
+- The best model has been selected based on test **Accuracy** score (TP+TN / TP+TN+FP+FN). 
+- Model performance per histological categories are assessed based on **Precision** (TP/TP+FP) for categories **(0)**, **(2)** as we want to mitigate the impact of wrongly diagnosing patients with cancer as healthy. Whereas **Recall** score (TP/TP+FN) is used for **(1)**, **(3)**, **(4)**, to prevent the risk of falsely diagnosing a patient to be healthy while having cancer. Additionally, the **ROC-AUC** score was utilized to monitor the model's performance per category, ensuring effectiveness beyond chance.
+- Given the sensitive nature of the use case, it is highly recommended that healthcare specialists personally review all patient results. The outcomes derived from the support solution should be evaluated in mainly ~40% of the cases to ensure thorough oversight and accuracy. The current model is designed to streamline the process for the remaining 60% of cases, allowing healthcare professionals to concentrate their efforts on more complex scenarios. This approach ensures that resources are optimally allocated, enhancing overall efficiency and effectiveness in patient care.
+
+**Base CNN model:** Accuracy: 74%
+**Enhanced CNN model:** Accuracy: 97%
+**Transfer Learning (VGG16) model:** Accuracy: 97%. ROC-AUC 1 for each category.
+Selected best model since it matches the performance of the Enhanced model while utilizing a less resource-intensive network. This efficiency showcases the benefits of transfer learning, highlighting its ability to maintain high accuracy without the need for extensive computational resources.
 
 
+## Error Analysis: 
 
+Based on the results obtained, when employing the Transfer model, healthcare specialists should pay particular attention to the histological categories of Lung Squamous Cell Carcinoma and Lung Adenocarcinoma. 
+This caution is advised because the current model has shown a tendency to misclassify these two diagnoses as shown in **Confusion Matrix**:
+![image](https://github.com/jdecampo/lung_colon_cancer_img_classification/blob/main/report/transfer_model_confusion_matrix.png)
 
     
