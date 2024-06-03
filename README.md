@@ -22,9 +22,6 @@ The dataset comprises 25,000 colour images, evenly distributed across 5 distinct
 - Snippets of code, derived from existing solutions, have been annotated and included as inline comments.
 
 
-
-
-
 Project Organization
 ------------
 
@@ -41,6 +38,9 @@ Project Organization
     │
     └── report            <- Generated analysis as PDF, PNG.
 
+## Methodology Pipeline:
+
+![image](https://github.com/jdecampo/lung_colon_cancer_img_classification/blob/main/report/lung_colon_methodology_pipeline.png)
 
 ## EDA
 
@@ -52,9 +52,6 @@ Plot the distribution for each category present in the dataset:
 
 ![image](https://github.com/jdecampo/lung_colon_cancer_img_classification/blob/main/report/eda_class_distribution.png)
 
-## Methodology Pipeline:
-
-![image](https://github.com/jdecampo/lung_colon_cancer_img_classification/blob/main/report/lung_colon_methodology_pipeline.png)
 
 ## Model Performance: 
 
