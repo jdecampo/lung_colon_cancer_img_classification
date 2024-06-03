@@ -1,5 +1,4 @@
 # Lung Colon cancer histopathological imgages Classification - Project Overview
-Lung and Colon cancer histopathological image classification utilizing DeepL (CNN, Transfer Learning) as part of Deep Learning course assignment.
 - The assignment goal was to evaluate how the application of various deep learning techniques, particularly computer vision approaches like Convolutional Neural Networks (CNN) and Transfer Learning, influences the accuracy of predictions in detecting and diagnosing lung and colon cancer, using the Lung and Colon Cancer Histopathological Image Dataset.
 - The outcome of this project should be a potential solution that can further support Healthcare specialists (Oncologists) for the diagnosis and study of cancer (Model Accuracy 97%), based on Histopathological imaging.
 
