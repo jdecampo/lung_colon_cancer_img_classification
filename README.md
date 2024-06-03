@@ -44,9 +44,13 @@ Project Organization
 
 ## EDA
 
-To gain a better understanding of the problem, display a subset of the histopathological images: ![image](https://github.com/jdecampo/lung_colon_cancer_img_classification/blob/main/report/eda_lung_colon_cancer_images.png)
+To gain a better understanding of the problem, display a subset of the histopathological images: 
 
-Plot the distribution for each category present in the dataset: ![image](https://github.com/jdecampo/lung_colon_cancer_img_classification/blob/main/report/eda_class_distribution.png)
+![image](https://github.com/jdecampo/lung_colon_cancer_img_classification/blob/main/report/eda_lung_colon_cancer_images.png)
+
+Plot the distribution for each category present in the dataset:
+
+![image](https://github.com/jdecampo/lung_colon_cancer_img_classification/blob/main/report/eda_class_distribution.png)
 
 ## Methodology Pipeline:
 
