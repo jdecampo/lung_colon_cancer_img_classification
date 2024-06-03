@@ -73,6 +73,7 @@ Selected best model since it matches the performance of the Enhanced model while
 
 Based on the results obtained, when employing the Transfer model, healthcare specialists should pay particular attention to the histological categories of Lung Squamous Cell Carcinoma and Lung Adenocarcinoma. 
 This caution is advised because the current model has shown a tendency to misclassify these two diagnoses as shown in **Confusion Matrix**:
+
 ![image](https://github.com/jdecampo/lung_colon_cancer_img_classification/blob/main/report/transfer_model_confusion_matrix.png)
 
     
